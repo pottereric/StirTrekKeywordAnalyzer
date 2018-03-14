@@ -64,10 +64,25 @@
     <Reference Include="canopy">
       <HintPath>..\packages\canopy.1.6.3\lib\canopy.dll</HintPath>
     </Reference>
+    <Reference Include="FognitiveServices.Text">
+      <HintPath>..\packages\FognitiveServices.Text.0.0.1\lib\netstandard2.0\FognitiveServices.Text.dll</HintPath>
+    </Reference>
     <Reference Include="FSharp.Core">
-      <HintPath>..\packages\FSharp.Core.4.0.0.1\lib\net40\FSharp.Core.dll</HintPath>
+      <HintPath>..\packages\FSharp.Core.4.3.4\lib\net45\FSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.CognitiveServices.Language">
+      <HintPath>..\packages\Microsoft.Azure.CognitiveServices.Language.1.0.0-preview\lib\net452\Microsoft.Azure.CognitiveServices.Language.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Rest.ClientRuntime">
+      <HintPath>..\packages\Microsoft.Rest.ClientRuntime.2.3.10\lib\net452\Microsoft.Rest.ClientRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Rest.ClientRuntime.Azure">
+      <HintPath>..\packages\Microsoft.Rest.ClientRuntime.Azure.3.3.10\lib\net452\Microsoft.Rest.ClientRuntime.Azure.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
