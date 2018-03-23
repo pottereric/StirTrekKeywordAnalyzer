@@ -1,15 +1,10 @@
 ﻿open canopy
-open Microsoft.Azure.CognitiveServices.Language.TextAnalytics.Models
-
-let azureRegion = AzureRegions.Westcentralus
-let subscriptionKey =  "<Your-Subscription-Key>"
-
 
 let analyzeStirTrekTags _ =
     start Chrome
     url "https://www.stirtrek.com/Schedule?flat=False&year=2018"
 
-    let client = FognitiveServices.Text.Client.create subscriptionKey azureRegion
+    let client = FognitiveServices.Text.Client.create Config.subscriptionKey Config.azureRegion
 
     let results = 
         elements ".sessionTitle" 
